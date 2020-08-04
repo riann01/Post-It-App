@@ -15,6 +15,7 @@ export default function Home() {
 
     return (
         <View style={styles.screen}>
+            <Text style={styles.appName}>Post-It!</Text>
             <Text style={styles.title}>
                 Crie suas anotações com esta solução criativa :)
             </Text>

@@ -7,6 +7,15 @@ const styles = StyleSheet.create({
         backgroundColor: '#640AA8',
         padding: 30
     },
+    appName: {
+        textAlign: 'left',
+        color: '#FFF',
+        fontFamily: 'Montserrat-Bold',
+        fontSize: 45,
+        textShadowColor: 'rgba(0, 0, 0, 0.85)',
+        textShadowOffset: { width: -1, height: 1 },
+        textShadowRadius: 10
+    },
     title: {
         textAlign: 'left',
         marginTop: '55%',
