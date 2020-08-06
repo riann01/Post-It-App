@@ -108,6 +108,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '80%',
         marginRight: 30
+    },
+    modalContainer: {
+        alignItems: 'center'
+    },
+    modal: {
+        backgroundColor: '#FFF',
+        width: 100,
+        height: 100,
+        borderRadius: 7,
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 });
 

@@ -110,6 +110,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         fontFamily: 'Montserrat-SemiBold'
     },
+    modal: {
+        width: '10%',
+        height: '5%'
+    }
 });
 
 export default styles;

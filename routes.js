@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from './pages/Home';
 import Authenticate from './pages/Authenticate';
 import Register from './pages/Register';
+import UserHome from './pages/UserHome';
 
 const Stack = createStackNavigator();
 
@@ -17,6 +18,7 @@ export default function Routes() {
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Authenticate" component={Authenticate} />
                 <Stack.Screen name="Register" component={Register} />
+                <Stack.Screen name="UserHome" component={UserHome} />
             </Stack.Navigator>
         </NavigationContainer>
     );
