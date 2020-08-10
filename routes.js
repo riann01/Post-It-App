@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Authenticate from './pages/Authenticate';
 import Register from './pages/Register';
 import UserHome from './pages/UserHome';
+import CreateNewAnnotation from './pages/CreateNewAnnotation';
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,7 @@ export default function Routes() {
                 <Stack.Screen name="Authenticate" component={Authenticate} />
                 <Stack.Screen name="Register" component={Register} />
                 <Stack.Screen name="UserHome" component={UserHome} />
+                <Stack.Screen name="CreateNewAnnotation" component={CreateNewAnnotation} />
             </Stack.Navigator>
         </NavigationContainer>
     );

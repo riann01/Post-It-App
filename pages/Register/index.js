@@ -24,7 +24,7 @@ export default function Register() {
         }
         else {
             const message = register(name, email, password);
-            setModalMessage(message);
+            navigation.navigate('UserHome');
         }
         setShowModal(true);
     }
@@ -39,7 +39,7 @@ export default function Register() {
                         style={styles.modal}
                     >
                         <View>
-                        <Text>{modalMessage}</Text>
+                            <Text>{modalMessage}</Text>
                         </View>
                     </Modal>
                     <View style={styles.header}>

@@ -49,7 +49,7 @@ export default function Authenticate() {
         .signInWithEmailAndPassword(email, password)
         .then(() => {
             setLoginDataAction('AUTHENTICATED', user);
-            alert(user.email);
+            //alert(user.email);
             goToUserHome();
         })
         .catch(error => {

@@ -17,7 +17,10 @@ const register = (name, email, password) => {
 
             console.error(error);
         }
-    )
+    );
+    auth().currentUser.updateProfile({
+        displayName: name
+    });
 }
 
 export default register;
